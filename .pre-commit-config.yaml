@@ -14,7 +14,7 @@ repos:
   - id: forbid-tabs
   - id: remove-tabs
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v2.4.0
+  rev: v2.5.0
   hooks:
   - id: trailing-whitespace
   - id: end-of-file-fixer
@@ -28,6 +28,6 @@ repos:
   hooks:
   - id: dockerfilelint
 - repo: https://github.com/hukkinj1/mdformat
-  rev: 0.1.1  # Use the ref you want to point at
+  rev: 0.5.3  # Use the ref you want to point at
   hooks:
   - id: mdformat
